@@ -1,0 +1,135 @@
+{
+    "profile": {
+        "name": "Zahid DevOps",
+        "title": "Senior DevOps Engineer & Cloud Architect",
+        "tagline": "Automating the future, one pipeline at a time.",
+        "about": "I am a passionate DevOps Engineer with over 3 years of experience in building scalable infrastructure, automating CI/CD pipelines, and optimizing cloud costs. I specialize in Kubernetes, AWS, and Infrastructure as Code.",
+        "location": "Walsall, UK",
+        "email": "zahidm9292@yahoo.com",
+        "social": {
+            "github": "https://github.com",
+            "linkedin": "https://linkedin.com",
+            "twitter": "https://twitter.com"
+        }
+    },
+    "skills": {
+        "Cloud Platforms": [
+            "AWS",
+            "Google Cloud",
+            "Azure"
+        ],
+        "Containerization": [
+            "Docker",
+            "Kubernetes",
+            "Helm",
+            "Podman"
+        ],
+        "IAC": [
+            "Terraform",
+            "Ansible",
+            "CloudFormation",
+            "Pulumi"
+        ],
+        "CI/CD": [
+            "Jenkins",
+            "GitHub Actions",
+            "GitLab CI",
+            "CircleCI"
+        ],
+        "Monitoring": [
+            "Prometheus",
+            "Grafana",
+            "ELK Stack",
+            "Datadog"
+        ],
+        "Scripting": [
+            "Python",
+            "Bash",
+            "Go",
+            "Node.js"
+        ]
+    },
+    "experience": [
+        {
+            "id": 1,
+            "role": "Senior DevOps Engineer",
+            "company": "CloudNative Corp",
+            "period": "2021 - Present",
+            "description": "Leading the platform engineering team. Migrated 50+ microservices to Kubernetes. Reduced AWS costs by 30% through spot instance optimization."
+        },
+        {
+            "id": 2,
+            "role": "DevOps Engineer",
+            "company": "TechStream Solutions",
+            "period": "2018 - 2021",
+            "description": "Implemented fully automated CI/CD pipelines using Jenkins and Ansible. Managed hybrid cloud infrastructure."
+        },
+        {
+            "id": 3,
+            "role": "Systems Administrator",
+            "company": "Legacy Systems Inc",
+            "period": "2016 - 2018",
+            "description": "Managed Linux servers (CentOS/Ubuntu). Automating backup and recovery processes."
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "Multi-Cloud K8s Cluster",
+            "description": "Deployed a high-availability Kubernetes cluster spanning AWS and GCP using Terraform and Federation.",
+            "tags": [
+                "Kubernetes",
+                "Terraform",
+                "AWS",
+                "GCP"
+            ],
+            "image": "https://images.unsplash.com/photo-1667372393119-3866372c65a5?q=80&w=800&auto=format&fit=crop",
+            "link": "#",
+            "github": "#",
+            "category": "Infrastructure"
+        },
+        {
+            "id": 2,
+            "title": "Serverless API Gateway",
+            "description": "Built a serverless API gateway using AWS Lambda, API Gateway, and DynamoDB for a high-traffic e-commerce site.",
+            "tags": [
+                "AWS Lambda",
+                "Serverless",
+                "DynamoDB"
+            ],
+            "image": "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?q=80&w=800&auto=format&fit=crop",
+            "link": "#",
+            "github": "#",
+            "category": "Cloud"
+        },
+        {
+            "id": 3,
+            "title": "GitOps with ArgoCD",
+            "description": "Implemented GitOps workflow for Kubernetes application deployment using ArgoCD and Helm charts.",
+            "tags": [
+                "ArgoCD",
+                "GitOps",
+                "Helm",
+                "Kubernetes"
+            ],
+            "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?q=80&w=800&auto=format&fit=crop",
+            "link": "#",
+            "github": "#",
+            "category": "DevOps"
+        },
+        {
+            "id": 4,
+            "title": "Log Aggregation System",
+            "description": "Centralized logging system using ELK Stack (Elasticsearch, Logstash, Kibana) processing 1TB+ logs daily.",
+            "tags": [
+                "ELK",
+                "Elasticsearch",
+                "Monitoring"
+            ],
+            "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop",
+            "link": "#",
+            "github": "#",
+            "category": "Monitoring"
+        }
+    ]
+}
