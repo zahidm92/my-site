@@ -28,7 +28,7 @@
             "Terraform",
             "Ansible",
             "CloudFormation",
-            "Pulumi"
+            "Not pulumi"
         ],
         "CI/CD": [
             "Jenkins",
