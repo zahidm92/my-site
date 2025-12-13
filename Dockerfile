@@ -28,6 +28,4 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 EXPOSE 80
 
 # Start Nginx
-#CMD ["nginx", "-g", "daemon off;"]
-USER non-root 
 CMD ["nginx", "-g", "daemon off;"]
