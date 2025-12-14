@@ -23,7 +23,7 @@ COPY --from=build /app/dist /usr/share/nginx/html
 
 # Copy custom Nginx configuration
 COPY nginx.conf /etc/nginx/conf.d/default.conf
-USER 10001
+USER 10005
 # Expose port 80
 EXPOSE 80
 
