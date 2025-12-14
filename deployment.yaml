@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devops-portfolio
+  labels:
+    app: devops-portfolio
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: devops-portfolio
+  template:
+    metadata:
+      labels:
+        app: devops-portfolio
+    spec:
+      containers:
+      - name: devops-portfolio
+        image: zahidm9292y/myapp:v1.25
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "250m"
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: devops-portfolio-service
+spec:
+  selector:
+    app: devops-portfolio
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: LoadBalancer # Change to ClusterIP or NodePort depending on your environment
