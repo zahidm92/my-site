@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: devops-portfolio
-        image: zahidm9292y/myapp:v1
+        image: zahidm9292y/myapp:v1.20
         ports:
         - containerPort: 80
         resources:
